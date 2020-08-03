@@ -1,114 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza Place</title>
-</head>
-<body>
-    <div class="jumbotron">
-        <div class="container">
-            <h1>PIZZA PLACE</h1>
-            <p>
-                We have the Best pizza in town!
-            </p>
-        </div>
-    </div>
-    <div class="container2">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div id="Flavour" class="Flavour slide" data-ride="flavour">
-                    <p>This are the flavours available</p>
-                <ol class="Flavour-indicators">
-                    <li>Beef and Chesse</li>
-                    <li> Meat Deluxe</li>
-                    <li>Paparika</li>
-                    <li>Pepper</li>
-                    <li>Pepperoni</li>
 
-                    
-                </ol>
-    
-                <!-- Wrapper for slides -->
-                <div class="PIZZA-inner" role="listbox">
-                    <div class="item active">
-                        <img src="Images/beef and cheese.jpeg" alt="Food">
-                        <div class="beef-caption">
-                            <h2>
-                                Best beef and cheese Pizza around!
-                            </h2>
-                        </div>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/bootstrap-4.5.0-dist/css/bootstrap.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Hammersmith+One|Radley|Special+Elite&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="JS/jquery-3.5.1.js"></script>
+    <script src="JS/script.js"></script>
+</head>
+
+<body>
+    <div class="main container">
+        <div class="landingpage">
+            <p class="Pizza Place text-white text-bold text-center">The Pizza Place</p>
+        </div>
+        <div class="menu">
+            <h3 class="menu text-center">Our full range of menu</h3>
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <div>
+                        <img class="card-img-top one" src="Images/meat deluxe.jpeg">
                     </div>
-                    <div class="item">
-                        <img src="Images/meat deluxe.jpeg" alt="Food">
-                        <div class="meat deluxe-caption">
-                            <h2>
-                                Loads of meat!
-                            </h2>
-                        </div>
+                    <div class="overlay1">
+                        <h5 class="text-bold">Meat Deluxe</h5>
                     </div>
-                    <div class="item">
-                        <img src="Images/paparika.jpeg" alt="Food">
-                        <div class="paparika-caption">
-                            <h2>
-                                Alot of spices!
-                            </h2>
-                        </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div>
+                        <img class="card-img-top" src="Images/paparika.jpeg">
+                    </div>
+                    <div class="overlay">
+                        <h5 class="text-bold">Paparika</h5>
                     </div>
                 </div>
             </div>
+
+            <div class="row">
+                <div class="col-md-6 mt-4">
+                    <div>
+                        <img class="card-img-top" src="Images/beef and cheese.jpeg">
+                    </div>
+                    <div class="overlay">
+                        <h5 class="text-bold">Beef and Chesse Pizza</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <div>
+                        <img class="card-img-top" src="Images/Pepper.jpeg">
+                    </div>
+                    <div class="overlay">
+                        <h5 class="text-bold">Pepper Pizza</h5>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="info-boxes">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="info-box">
-                        <h2>
-                            Address
-                        </h2>
-                        <address>
-                          <strong>PIZZA PLACE</strong><br>
-                          KIMANTHI STREET <br>
-                          NAIROBI, CBD <br>
-                          BELOUS BUILDING SECOND FLOOR <br>
-                          <abbr title="Phone">P:</abbr> (0722533565)
-                        </address>
-                    </div>
+
+        <div class="order row">
+            <div class="col-md-6">
+                <h3>Enter your order details below <br>
+                    Fill in the form </h3>
+                <form action="" id="pizzainfo">
+                    <label for="">Choose your pizza size</label>
+                    <select class="form-control" name="size" id="size">
+                        <option value="1200">Large @ ksh 1500</option>
+                        <option value="900">Medium @ ksh 800</option>
+                        <option value="600">Small @ ksh 700</option>
+                    </select>
+                    <label for="">Choose your desired crust type</label>
+                    <select class="form-control" name="" id="crust">
+                        <option value="230" name="crust">stuffed crust @ ksh200
+                        <option value="250" name="crust">Crispy @ ksh 240
+                        <option value="300" name="crust">Glutten free @ ksh 280
+                    </select>
+                    <label for="">Choose your Desired toppings</label> <br>
+                    <input value="150" type="checkbox" id="toppingone">Mushrooms
+                    <input value="150" type="checkbox" id="toppingone">Sausage
+                    <input value="150" type="checkbox" id="toppingone">Onions
+                    <input value="150" type="checkbox" id="toppingone">Tikka Sauce
+                    <input value="150" type="checkbox" id="toppingone">Mozarella Cheese
+
+                    <label for="">Input Quantity</label>
+                    <input class="form-control form-group" type="text" id="numberofpizza">
+                    <button name="button" type="submit" id="submit" value="Check-Out"
+                        onclick="calctotalPrice()">Submit</button>
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <div id="formlocation">
+                    <h3>For delivery services,enter your location details below</h3>
+                    <form id="delivery">
+                        <label for="name">Name</label>
+                        <input class="form-control" type="text" name="" id="name" required="required">
+                        <label for="location">Location</label>
+                        <input class="form-control" type="text" id="location" placeholder="location...">
+                        <label for="phonenumber">Phone Number</label>
+                        <input class="form-control" type="tel" placeholder="07xxxxxxxx" id="number"> <br>
+                        <button type="submit" name="button" id="submit">submit</button>
+                    </form>
                 </div>
-                <div class="col-sm-4">
-                    <div class="info-box social-links">
-                        <h2>Social Links</h2>
-                        <ul class="list-unstyled social-list">
-                            <li>
-                                <i class="fa fa-INSTAGRAM-square"></i>
-                                <a href="#">
-                                    instagram.
-                                    @Pizza Place
-                                </a>
-                            </li>
-                            <li>
-                                <i class="fa fa-twitter-square"></i>
-                                <a href="#">
-                                    twitter
-                                    @Pizza Place
-                                </a>
-                                </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="info-box">
-                        <h2>Reviews</h2>
-                        <blockquote>
-                            This pizza is the best in town!
-                            <footer>Bon Appétit<cite title="Pizza Place">Pizza Place</cite></footer>
-                        </blockquote>
-                    </div>
+            </div>
+        </div>
+        <div class="container-fluid footer row">
+            <div class="col-md-6 Get in touch">
+                <h4>Get in touch</h4>
+                <p><i class="fa fa-map-marker fa-2x">&nbsp;KIMANTHI STREET,BILA TOWERS,GROUND FLOOR</i></p>
+                <p><i class="fa fa-phone">&nbsp;0722533565,0763533565</i></p>
+                <p><i class="fa fa-email">&nbsp;pizzaplace@gmail.com</i></p>
+            </div>
+            <div class="col-md-6 social icons">
+                <div id="contacts" class="small-divs">
+                    <h4></h4>
+                    <p>Lets catch up</p>
+                    <p><i class="fa fa-facebook-square">&nbsp;Pizza Place</i></p>
+                    <p><i class="fa fa-instagram">&nbsp;Pizza Place</i></p>
+                    <p><i class="fa fa-youtube ">&nbsp;Pizza PLace</i></p>
+                    <p><i class="fa fa-twitter ">&nbsp;Pizza Place</i></p>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>

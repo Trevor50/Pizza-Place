@@ -1,44 +1,42 @@
-body {
-    padding-top: 70px;
-}
-
-.jumbotron {
-    margin-top: -20px;
-    text-align: center;
-    background-color: #ebebd6;
-}
-
-.container2 img{
-    margin: 0 auto;
+.landingpage{
+    background-image: url("Images/landing page.jpeg");
+    background-size: cover;
+    height: 600px
     
-}
 
-.social-list li {
-    margin: 20px 0;
 }
-
-.info-boxes {
-    margin-top: 15px;
-    background-color: #ebebd6;
-}
-
-.info-box {
-    background: white;
-    margin: 20px 10px;
-    padding: 30px;
-    box-shadow: 1px 1px 2px #e7e7e7;
-    border-radius: 4px;
-    min-height: 275px;
-}
-
-#home-carousel {
-}
-
-.social-links i{
+.pizzeria{
+    padding-top: 40px;
+    font-family: 'Courgette', cursive;
     font-size: 40px;
-    vertical-align: middle;
+}
+.menu{
+    padding-top: 15px;
 }
 
-.food-thumbnail {
-    min-height: 400px;
+.size{
+    height: 200px;
+    width: 300px;
+}
+.two{
+    margin-top: 30px;
+}
+.overlay{
+    /* display: none */
+}
+/* .overlay1{
+    display:none;
+    position: absolute;
+    bottom:0px;
+    background:white;
+    opacity: 0.5;
+    width: 90%;
+    height: 100%;
+} */
+.aboutus{
+padding: 100px;
+}
+
+.footer{
+    padding-top:70px;
 }
