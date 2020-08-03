@@ -13,11 +13,13 @@
 }
 
 .about{
+    background-image: url(Images/back.jpg);
     text-align: center;
     padding-bottom: 30px;
     padding-top:40px;
     font-family: 'Copse', serif;
     color: black;
+
 }
 
 .pizzeria{
@@ -53,6 +55,12 @@
 padding: 100px;
 }
 
+.h5{
+    text-align: center;
+    padding-bottom: 12px;
+    color: black;
+}
 .footer{
     padding-top:70px;
+    text-align: center;
 }
