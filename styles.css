@@ -1,8 +1,11 @@
 .landingpage{
     background-image: url("Images/back.jpg");
     background-size: cover;
-    height: 600px
-    
+    height: 600px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
 
 }
 .Pizza{
