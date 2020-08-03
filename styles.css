@@ -5,6 +5,12 @@
     
 
 }
+.Pizza{
+    color: black;
+    text-align: center;
+    padding: bottom 30px; ;
+    padding-top:40px ;
+}
 
 .about{
     text-align: center;
@@ -13,10 +19,12 @@
     font-family: 'Copse', serif;
     color: black;
 }
+
 .pizzeria{
     padding-top: 40px;
     font-family: 'Courgette', cursive;
     font-size: 40px;
+    color: black;
 }
 .menu{
     padding-top: 15px;
