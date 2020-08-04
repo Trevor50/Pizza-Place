@@ -25,7 +25,7 @@
 
 }
 .menu{
-    background-image: url(Images/back12.jpg)
+      background-color: black;
 
 }
 
@@ -76,4 +76,18 @@ padding: 100px;
     position: absolute;
     color: black;
     font-weight: bolder;
+}
+.overlay{
+    color:white;
+    font: bolder;
+    font-style: italic;
+    font-weight: 700;
+}
+.overlay1{
+    color:black;
+    text-size-adjust: 100px;
+}
+.overlay2{
+    color:black
+    text-size-adjust: 100px;
 }
