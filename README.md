@@ -5,7 +5,7 @@ This Repository contains code for my pizza website.
 I created this project so as to help people order any type of pizza from wherever they are and also helps them know the prices by just a click.
 ## Setup Instructions
 * Open our webpage and you will find forms to fill which will help us know what you want specifically.
-* You can find more info by opening this link:(https://github.com/Trevor50/AKAN-NAME-GENERATION)
+* You can find more info by opening this link:(https://github.com/Trevor50/Pizza-Place.git)
 ### Technologies Used
 I used this technologoies to come up with my website.
 * Javascript
