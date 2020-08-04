@@ -24,9 +24,9 @@
     color: white;
 
 }
-.menu{
-      background-color: lightgreen;
-
+.menu1{
+    color: black;
+    background-color: black;
 }
 
 .pizzeria{
@@ -78,21 +78,24 @@ padding: 100px;
     font-weight: bolder;
 }
 .overlay{
-    color:white;
+    color:black;
     font: bolder;
     font-style: italic;
     font-weight: 700;
 }
 .overlay1{
-    color:white;
+    color:black;
     text-size-adjust: 100px;
 }
 .overlay2{
-    color:white;
+    color:black;
     text-size-adjust: 100px;
 }
 .menu1{
     background-color: white;
     color: white;
     
+}
+.footer{
+    text-align: center;
 }
